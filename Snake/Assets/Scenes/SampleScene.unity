@@ -255,8 +255,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2772cd6cfa4a749409e8fd373a879103, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodPrefab: {fileID: 6731800675942185939, guid: 58433adc3e6d72d48b2d69849bceb820,
+    type: 3}
+  maxFood: 1
+  borderTop: {fileID: 1940959797}
+  borderButtom: {fileID: 120252762}
+  borderLeft: {fileID: 908738543}
+  borderRight: {fileID: 960063793}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -541,8 +548,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fe7c5fd837e61a4c9da65cc4f583707, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1940959795
 GameObject:
   m_ObjectHideFlags: 0
